@@ -9,7 +9,7 @@ from scrapy.utils.url import parse_url
 
 
 class ZapimoveisSpider(scrapy.Spider):
-    name = "zapimoveis"
+    name = "zap"
     allowed_domains = ["zapimoveis.com.br"]
 
     def __init__(self, urls=None, start=1, count=None, seed=None,
