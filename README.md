@@ -59,15 +59,15 @@ scrapy crawl zap [-a url=<zapimoveis-url>] [-a start=n] [-a count=n] [-a seed=<s
 
 * Olinda-PE. Crawl the first 4 pages.
   ```
-  scrapy crawl zap -a count=4 -a url="https://www.zapimoveis.com.br/venda/imoveis/pe+olinda/"
+  scrapy crawl zap -a count=4 -a urls="https://www.zapimoveis.com.br/venda/imoveis/pe+olinda/"
   ```
 
 * Rio de Janeiro-RJ - south zone. Starting at page 100, crawl till the end:
   ```
-  scrapy crawl zap -a start=100 -a url="https://www.zapimoveis.com.br/venda/imoveis/agr+rj+rio-de-janeiro+zona-sul/"
+  scrapy crawl zap -a start=100 -a urls="https://www.zapimoveis.com.br/venda/imoveis/agr+rj+rio-de-janeiro+zona-sul/"
   ```
 
 * All places. Starting from page 4, crawl 3 pages:
   ```
-  scrapy crawl zap -a start=4 -a count=3 -a url="https://www.zapimoveis.com.br/venda/imoveis/"
+  scrapy crawl zap -a start=4 -a count=3 -a urls="https://www.zapimoveis.com.br/venda/imoveis/"
   ```
