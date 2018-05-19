@@ -1,7 +1,7 @@
 # Real Estate - Scraper
 A scraper that gathers data from real estate ads.
 
-### Currently Suported Websites
+### Currently Supported Websites
 
 |Country|Website|
 |-|-|
@@ -38,7 +38,7 @@ Then use the following command to start crawling:
 ```sh
 scrapy crawl zap [-a url=<zapimoveis-url>] [-a start=n] [-a count=n] [-a seed=<seed>]
 ```
-> Curently, only [ZAP Imóveis](https://www.zapimoveis.com.br/) is suported  
+> Curently, only [ZAP Imóveis](https://www.zapimoveis.com.br/) is supported  
 
 **Arguments**:
 
