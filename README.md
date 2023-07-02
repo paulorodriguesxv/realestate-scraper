@@ -71,3 +71,4 @@ scrapy crawl zap [-a url=<zapimoveis-url>] [-a start=n] [-a count=n] [-a seed=<s
   ```
   scrapy crawl zap -a start=4 -a count=3 -a urls="https://www.zapimoveis.com.br/venda/imoveis/"
   ```
+
